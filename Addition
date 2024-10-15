@@ -1,0 +1,34 @@
+// Write a Java program to print the sum of two numbers 
+
+//Sample solution :
+public class Exercise2 {
+    public static void main(String[] args) {
+        // Calculate the sum of 24 and 26
+        int sum = 24 + 26;
+        // Print the result of the addition
+        System.out.println(sum);
+    }
+} 
+
+
+//Sample solution using input from the user:
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter the First number :- ");
+        int num1 = input.nextInt();
+        
+        System.out.print("Enter the Second number :- ");
+        int num2 = input.nextInt();
+        
+        int sum = num1+num2;
+        
+        System.out.println();
+        
+        System.out.println("Sum of two numbers :- " + sum);
+    }
+}
