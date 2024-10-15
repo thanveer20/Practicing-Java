@@ -1,0 +1,31 @@
+//Write a Java program to divide two numbers and print them on the screen.
+
+//Sample program :- 
+public class Main{
+    public static void main(String[] args){
+        double Div = 50/2f;
+        System.out.println(Div);
+    }
+}
+
+//Sample solution using input from the user :-
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Enter the First number :- ");
+        int num1 = scan.nextInt();
+        
+        System.out.print("Enter the Second number :- ");
+        int num2 = scan.nextInt();
+        
+        double Div = (double)num1/num2;
+        
+        System.out.println();
+        
+        System.out.println("The division of num1 and num2 is :- " + Div);
+        
+    }
+}
