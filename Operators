@@ -1,0 +1,59 @@
+/* 
+
+Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+Test Data:
+Input first number: 125
+Input second number: 24
+Expected Output :
+125 + 24 = 149
+125 - 24 = 101
+125 x 24 = 3000
+125 / 24 = 5
+125 mod 24 = 5
+
+*/  
+
+
+//Sample solution :
+public class Main{
+    public static void main(String[] args){
+        int a = 125;
+        int b = 25;
+        
+        System.out.println("Addition of numbers is :- " + a+b);
+        
+        System.out.println("Subtraction of numbers is :- " + (a - b));
+        
+        System.out.println("Multiplication of numbers is :- " + a*b);
+        
+        System.out.println("Division of numbers is :- " + a/b);
+        
+        System.out.println("Remainder of numbers is :- " + a%b);
+    }
+}
+
+
+//Sample solution using input from the user:
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the First number :- ");
+        int num1 = sc.nextInt();
+        
+        System.out.print("Enter the Second number :- ");
+        int num2 = sc.nextInt();
+        
+        System.out.println("Addition of numbers is :- " + (num1+num2));
+        
+        System.out.println("Subtraction of numbers is :- " + (num1-num2));
+        
+        System.out.println("Multiplication of numbers is :- " + (num1*num2));
+        
+        System.out.println("Division of numbers is :- " + (num1/num2));
+        
+        System.out.println("Remainder of numbers is :- " + (num1%num2));
+    }
+}
