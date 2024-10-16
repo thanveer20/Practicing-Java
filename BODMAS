@@ -1,0 +1,31 @@
+//Write a Java program to print the results of the following operations. (+ - * / %)
+
+//Sample solution-1 :
+public class Main{
+    public static void main(String[] args){
+        System.out.println(5-5+4+8/63);
+        
+        System.out.println(54/65-32+65+220);
+        
+        System.out.println(2121+54549-20000*5/2);
+        
+        System.out.println(54543-2200*50);
+        
+        System.out.println(55%5);
+    }
+}
+
+
+//Sample solution-2 :
+public class Main{
+    public static void main(String[] args){
+        
+        int a = 545*556/4410%5;
+        int b = 5454/5454*6565+2000%10;
+        int c = 500+500+50505/2*54*20/20-500%100;
+        
+        System.out.println(a + "\n" + b + "\n" + c);
+    }
+}
+
+
