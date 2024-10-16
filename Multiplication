@@ -1,0 +1,40 @@
+// Write a Java program that takes two numbers as input and displays the product of two numbers.
+
+
+
+//Sample solution :
+public class Main{
+    
+    static int x = 98;
+    static int y = 509;
+    
+    public static void main(String[] args){
+        int a = 100;
+        int b = 500;
+        int mul = a*b;
+        System.out.println(mul);
+        
+        System.out.println(x*y);
+    }
+}
+
+
+//Sample solution using input from the user:
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter First number :- ");
+        int num1 = sc.nextInt();
+        
+        System.out.print("Enter Second number :- ");
+        int num2 = sc.nextInt();
+
+        int mul = num1*num2;
+        System.out.println("Multiplication of numbers is :- " + mul);
+
+        System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
+    }
+}
